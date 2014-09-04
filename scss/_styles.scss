@@ -1,0 +1,116 @@
+$news: rgb(244, 244, 242);
+$text: rgb(47, 47, 47);
+$hover: rgb(35, 166, 178);
+$hover2: rgb(24, 116, 124);
+body{
+  background-color: $news;
+  color: $text;
+}
+
+.container{
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  h1{
+    font-size: 130px;
+    line-height: 120px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  h2{
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 2px solid $text;
+    border-bottom: 2px solid $text;
+  }
+  .toBlog{
+    font-size: 250px;
+    color: $text;
+  }
+  .toBlog:hover{
+    color: $hover;
+  }
+}
+
+.wrapper{
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  .top{
+    h1{
+      font-size: 80px;
+      line-height: 70px;
+      font-family: 'Playfair Display', serif;
+      font-weight: 900;
+      text-align: center;
+      margin-bottom: 35px;
+    }
+    h2{
+      font-size: 2rem;
+      font-style: italic;
+      font-family: 'Playfair Display', serif;
+      text-align: center;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-top: 2px solid $text;
+      border-bottom: 2px solid $text;
+    }
+    .toBlog{
+      font-size: 150px;
+      color: $text;
+    }
+    .toBlog:hover{
+      color: $hover;
+    }
+  }
+  .bp{
+    margin-top: 30px;
+    h2{
+      font-size: 40px;
+      line-height: 35px;
+      font-family: 'Playfair Display', serif;
+      font-weight: 900;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+    h3{
+      font-size: 25px;
+      font-style: italic;
+      font-family: 'Playfair Display', serif;
+      text-align: center;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-top: 2px solid $text;
+      border-bottom: 2px solid $text;
+    }
+
+    article{
+      border: 1px solid $text;
+      max-height: 400px;
+      padding: 15px;
+      overflow-y: scroll;
+      p{
+        text-align: left;
+      }
+    }
+  }
+  .columns{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .addPost{
+    margin-top: 45px;
+  }
+  button{
+    background-color: $hover;
+  }
+  button:hover{
+    background-color: $hover2;
+  }
+}

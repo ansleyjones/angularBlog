@@ -1,0 +1,1 @@
+angular.module("mainModules.controllers").controller("homeController",function(o,n){o.notFound="whoops",o.date=moment().utc().format("dddd MMMM D, YYYY"),o.goToBlog=function(){n.path("/blog")}});

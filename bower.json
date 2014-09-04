@@ -1,0 +1,11 @@
+{
+  "name": "foundation-libsass-template",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation",
+    "angular": "~1.2.23",
+    "angular-route": "~1.2.23",
+    "moment": "~2.8.2",
+    "font-awesome": "~4.2.0",
+    "underscore": "~1.7.0"
+  }
+}
